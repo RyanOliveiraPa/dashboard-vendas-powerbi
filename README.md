@@ -1,5 +1,6 @@
 # dashboard-vendas-powerbi
 
+
 # 📊 Dashboard de Vendas - Power BI
 
 Este projeto tem como objetivo analisar dados fictícios de vendas utilizando o **Power BI Desktop**, com foco em visualizações interativas e indicadores comerciais que auxiliam na tomada de decisões estratégicas.
@@ -51,3 +52,58 @@ Receita Total = SUM(Vendas[Receita])
 Lucro Total = SUM(Vendas[Lucro])
 Qtd Total = SUM(Vendas[Quantidade])
 Ticket Total = DIVIDE([Receita Total], [Qtd Total], 0)
+```
+
+---
+
+## 📂 Estrutura dos Dados
+
+A base foi gerada artificialmente com os seguintes campos:
+
+- `Data`
+- `Produto`, `Categoria`
+- `Vendedor`, `Região`
+- `Quantidade`, `Preço Unitário`
+- `Receita`, `Custo`, `Lucro`
+
+---
+
+## 🖼️ Demonstração
+
+### Página 1  
+![Dashboard Página 1](./Screenshot_1.png)
+
+### Página 2  
+![Dashboard Página 2](./Screenshot_2.png)
+
+### Página 3  
+![Dashboard Página 3](./Screenshot_3.png)
+
+### Página 4  
+![Dashboard Página 4](./Screenshot_4.png)
+
+---
+
+## 🧠 O que Aprendi
+
+- Modelagem de dados no Power BI
+- Criação de medidas com DAX
+- Uso de segmentações para filtros dinâmicos
+- Construção de dashboards interativos
+
+---
+
+## 🚀 Próximos Passos
+
+- Adicionar comparação entre anos
+- Implementar projeções futuras com base nos dados
+- Integrar com fontes externas (Google Sheets, banco SQL)
+
+---
+
+## 📎 Arquivos incluídos
+
+- `Dashboard_Vendas_PowerBI.pbix` – Arquivo do Power BI
+- `Dashboard_Vendas_PowerBI.xlsx` – Base de dados
+- Pasta `/img` – Imagens das páginas do dashboard
+
