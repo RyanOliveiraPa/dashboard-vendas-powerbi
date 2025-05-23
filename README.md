@@ -105,5 +105,5 @@ A base foi gerada artificialmente com os seguintes campos:
 
 - `Dashboard_Vendas_PowerBI.pbix` – Arquivo do Power BI
 - `Dashboard_Vendas_PowerBI.xlsx` – Base de dados
-- Pasta `/img` – Imagens das páginas do dashboard
+- Imagens das páginas do dashboard
 
